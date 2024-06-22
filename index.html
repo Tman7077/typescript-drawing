@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="dist/bundle.js" defer></script>
+</head>
+<body>
+    <canvas id="drawingCanvas" width="800" height="600"></canvas>
+    <div id="colorsAndWeight">
+        <div id="fgColorContainer">
+            <h1>Line Color</h1>
+            <button class="fg-color-button" style="background-color: red;" color-code="#FF0000"></button>
+            <button class="fg-color-button" style="background-color: orange;" color-code="#FFA500"></button>
+            <button class="fg-color-button" style="background-color: yellow;" color-code="#FFFF00"></button>
+            <button class="fg-color-button" style="background-color: green;" color-code="#008000"></button>
+            <button class="fg-color-button" style="background-color: blue;" color-code="#0000FF"></button>
+            <button class="fg-color-button" style="background-color: indigo;" color-code="#4B0082"></button>
+            <button class="fg-color-button" style="background-color: violet;" color-code="#EE82EE"></button>
+            <button class="fg-color-button" style="background-color: black;" color-code="#000000"></button>
+            <button class="fg-color-button" style="background-color: white;" color-code="#FFFFFF"></button>
+        </div>
+        <div id="bgColorContainer">
+            <h1>Background Color</h1>
+            <button class="bg-color-button" style="background-color: red;" color-code="#FF0000"></button>
+            <button class="bg-color-button" style="background-color: orange;" color-code="#FFA500"></button>
+            <button class="bg-color-button" style="background-color: yellow;" color-code="#FFFF00"></button>
+            <button class="bg-color-button" style="background-color: green;" color-code="#008000"></button>
+            <button class="bg-color-button" style="background-color: blue;" color-code="#0000FF"></button>
+            <button class="bg-color-button" style="background-color: indigo;" color-code="#4B0082"></button>
+            <button class="bg-color-button" style="background-color: violet;" color-code="#EE82EE"></button>
+            <button class="bg-color-button" style="background-color: black;" color-code="#000000"></button>
+            <button class="bg-color-button" style="background-color: white;" color-code="#FFFFFF"></button>
+        </div>
+        <div id="weightContainer">
+            <h1>Line Thickness</h1>
+            <button class="line-weight-button" thickness="5"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="10"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="15"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="20"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="25"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="30"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="35"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="40"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="45"><div class="line-weight-dot"></div></button>
+            <button class="line-weight-button" thickness="50"><div class="line-weight-dot"></div></button>
+        </div>
+    </div>
+    <div id="undoClear">
+        <button id="undo">Undo Last Line</button>
+        <button id="clear">Clear Canvas</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    background-color: lightgray;
+}
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+}
+#colorsAndWeight {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    width: 820px;
+    margin: auto;
+    padding: 10px;
+}
+.bg-color-button, .fg-color-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+.line-weight-button {
+    width: 65px;
+    height: 65px;
+    & div {
+        margin: 0 auto;
+        border-radius: 50%;
+        background-color: black;
+    }
+}
+#bgColorContainer, #fgColorContainer, #weightContainer {
+    text-align: center;
+    margin: auto;
+    border: 1px solid gray;
+}
+#bgColorContainer, #fgColorContainer {
+    width: 100%;
+    height: 130px;
+}
+#weightContainer {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 150px;
+}
+#undoClear {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 820px;
+    margin: auto;
+    & button {
+        font-size: 1.5em;
+    }
+}
