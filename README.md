@@ -1,6 +1,6 @@
 # Overview
 
-This was my first foray into TypeScript! It's a very rudimentary program that I made to allow the user to draw lines on their screen. It track mouse movement and clicks to know where to draw, and has multiple options for changing the line color and weight, and the background color, along with undo and clear functions.
+This was my first foray into TypeScript! It's a very rudimentary program that I made to allow the user to draw lines on their screen. It tracks mouse movement and clicks to know where to draw, and has multiple options for changing the line color and weight, and the background color, along with undo and clear functions.
 
 I wanted to learn a little about TypeScript, as I have some prior experience with JavaScript as well. A lot of the code translates exactly, but there are definitely some differences, and nuances that will take time to adapt to. It's powerful, though!
 
@@ -8,9 +8,9 @@ I wanted to learn a little about TypeScript, as I have some prior experience wit
 
 # Development Environment
 
-I used Visual Studio Code with [Microsoft's official TypeScript extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
+I used Visual Studio Code with [Microsoft's official TypeScript extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next).
 
-This was coded using TypeScript (which was exported to JavaScript), with a base HTML file, styled with CSS.
+This was coded using TypeScript (which was exported to JavaScript), along with a base HTML file, styled with CSS.
 
 # Useful Websites
 
